@@ -18,7 +18,6 @@ export default function App() {
         <div className='caselist'>
             <button className='casebutton'><a href="https://devinxiaodai.github.io/sobotshop/" target="_blank">获取对接页面链接</a></button>
            <div className='artical'>
-            <p>国内环境访问会存在几秒延迟</p>
             <p className='bold'>需求背景：</p>
             <p>用户接入会话，对接页面自动查询当前用户的订单列表，客服可以一键发送订单向用户进行订单确认。也可以根据用户浏览轨迹、收藏列表、购物车等数据分析出来客户比较关注的商品列表。向用户发送商品做商品推荐。除了订单和商品卡片的发送，对接页面也可以向用户发送自定义卡片，可以结合B端客户的实际业务，实现发放优惠券、物流信息查询、订单确认等丰富性的定制化卡片功能。</p>
             <p className='bold'>功能描述：</p>
@@ -33,7 +32,7 @@ export default function App() {
             <p>四、自定义卡片。客户可以结合实际业务，实现发放优惠券、物流信息查询、订单确认等丰富性的定制化卡片功能。</p>
             <img width="500px" src="https://img.sobot.com/chatres/b77e9e46bdc34890b91dab906f7114e2/msg/20240312/06061405e9a046828ecd4607b36d8e8a/7fc854ca20ae4bdb86229e497756cc03.png"></img>
            
-            <p>五、用户端展示效果，需要注意的是仅针对V6版PC/H5/SDK渠道生效。</p>
+            <p>五、用户端展示效果，注意仅针对V6版PC/H5/SDK渠道生效。</p>
             <img width="500px" src="https://img.sobot.com/chatres/b77e9e46bdc34890b91dab906f7114e2/msg/20240312/06061405e9a046828ecd4607b36d8e8a/890992591fe94782a500965cd7094de4.png"></img>
             </div>
         </div>

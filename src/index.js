@@ -8,7 +8,7 @@ root.render(
     <StrictMode>
         <NiceModal.Provider>
          <div className='areawidely'>
-            <div className='topbar'>DEMO演示</div>
+            <div className='topbar'>DEMO应用</div>
             <Tabs/>
             <div className='clear'></div> 
           </div>
