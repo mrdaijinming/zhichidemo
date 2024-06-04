@@ -8,12 +8,15 @@ import MyModal from './popModal';
 import {Checkbox,Radio} from 'antd';
 //知识点，箭头函数不改变this指向
 // showcard:1 显示订单卡片，2显示商品卡片，3显示优惠等自定义卡片，0不显示
-   
+// 展示千人千面、业务选项卡、热点问题、多轮对话、自定义订单卡片、分词联想等核心机器人能力。生成的专属聊天页链接可以收藏到地址栏，方便下次直接使用
+//展示千人千面、业务选项卡、热点问题、多轮对话、自定义订单卡片、分词联想等核心机器人能力。生成的专属聊天页链接可以收藏到地址栏，方便下次直接使用
+//展示千人千面、业务选项卡、热点问题、多轮对话、分词联想等核心机器人能力。生成的专属聊天页链接可以收藏到地址栏，方便下次直接使用'
+//展示千人千面、业务选项卡、热点问题、多轮对话、分词联想等核心机器人能力。生成的专属聊天页链接可以收藏到地址栏，方便下次直接使用
 export default function App() {
     const [list, setList] = useState([
             {id: 1, title: '零售行业-快销品', 
             url:'https://www.sobot.com/chat/pc/v6/index.html?sysnum=b77e9e46bdc34890b91dab906f7114e2&channelid=15',
-            remark:'快销品行业机器人，应用场景包括开具发票、政策查询、物流咨询等。展示千人千面、业务选项卡、热点问题、多轮对话、自定义订单卡片、分词联想等核心机器人能力。生成的专属聊天页链接可以收藏到地址栏，方便下次直接使用',
+            remark:'快销品行业机器人，应用场景包括开具发票、政策查询、物流咨询等。',
             cardflag:'2',
             agentid:'',
             partnerid:'1',
@@ -22,7 +25,7 @@ export default function App() {
             card_info:''},
             {id: 2, title: '智能家居-售后服务', 
             url:'https://www.sobot.com/chat/pc/v6/index.html?sysnum=b77e9e46bdc34890b91dab906f7114e2&channelid=22',
-            remark:'智能家居行业机器人，应用场景包括维修报障、功能说明、热点问题等，展示千人千面、业务选项卡、热点问题、多轮对话、自定义订单卡片、分词联想等核心机器人能力。生成的专属聊天页链接可以收藏到地址栏，方便下次直接使用',
+            remark:'智能家居行业机器人，应用场景包括维修报障、功能说明、热点问题等。',
             cardflag:'0',
             agentid:'',
             partnerid:'2',
@@ -31,7 +34,7 @@ export default function App() {
             card_info:''},
             {id: 3, title: '企业内部共享-HRSSC', 
             url:'https://www.sobot.com/chat/pc/v6/index.html?sysnum=b77e9e46bdc34890b91dab906f7114e2&channelid=14',
-            remark:'企业内部服务机器人，应用场景包括社保查询、积分落户、法务信息等。展示千人千面、业务选项卡、热点问题、多轮对话、分词联想等核心机器人能力。生成的专属聊天页链接可以收藏到地址栏，方便下次直接使用',
+            remark:'企业内部服务机器人，应用场景包括社保查询、积分落户、法务信息等。',
             cardflag:'0',
             agentid:'',
             partnerid:'3',
@@ -40,7 +43,7 @@ export default function App() {
             card_info:''},
             {id: 3, title: '制造业-售前售后', 
             url:'https://www.sobot.com/chat/pc/v6/index.html?sysnum=b77e9e46bdc34890b91dab906f7114e2&channelid=25',
-            remark:'制造业服务机器人，应用场景包括门店咨询、新品查询等售前场景以及解决报障、维修等售后场景，展示千人千面、业务选项卡、热点问题、多轮对话、分词联想等核心机器人能力。生成的专属聊天页链接可以收藏到地址栏，方便下次直接使用',
+            remark:'制造业服务机器人，应用场景包括门店咨询、新品查询等售前场景以及解决报障、维修等售后场景。',
             cardflag:'0',
             agentid:'',
             partnerid:'3',
