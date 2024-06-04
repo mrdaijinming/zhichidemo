@@ -1,8 +1,6 @@
 
 import React, { Component,useState} from 'react';
-import {Modal, Button, Input, Space,Select, Form} from 'antd';
 
-import {Checkbox,Radio} from 'antd';
    
 export default function App() {
      

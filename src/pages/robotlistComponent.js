@@ -1,11 +1,10 @@
 
 import React, { Component,useState} from 'react';
-import {Modal, Button, Input, Space,Select, Form} from 'antd';
+import {Modal, Input,Select, Form} from 'antd';
 
 import NiceModal from "@ebay/nice-modal-react";
 import card_theme from '../css/member.css';
 import MyModal from './popModal';
-import {Checkbox,Radio} from 'antd';
 //知识点，箭头函数不改变this指向
 // showcard:1 显示订单卡片，2显示商品卡片，3显示优惠等自定义卡片，0不显示
    
