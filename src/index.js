@@ -1,7 +1,7 @@
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
 import Tabs from './tabs';
-import NiceModal, { useModal } from '@ebay/nice-modal-react';
+import NiceModal from '@ebay/nice-modal-react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
